@@ -12,8 +12,9 @@
 }
 .form >button{
     border: none;
+    border-color: rgb(38, 168, 201);
     outline: none;
-    background-color: rgb(108, 187,108);
+    background-color: rgb(94, 192, 216);
     padding: 10px 12px;
     border: solid 1px ;
     color: #fff;

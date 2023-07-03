@@ -36,9 +36,9 @@ const Product = () => {
           <Link to="/add">
             <button>Add</button>
           </Link>
-          <h3 className="h3">{item.title}</h3>
-          <p className="p">{item.price}</p>
-          <p className="p1">{item.discountPercentage}%</p>
+          <h3 className="h3">Brand:{item.title}</h3>
+          <p className="p"> Price:{item.price} </p>
+          <p className="p1"> Discount Percentage:{item.discountPercentage}%</p>
           <Link to={`/product/${item.id}`}>
             <button className="btn">View details</button>
           </Link>
