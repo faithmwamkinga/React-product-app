@@ -1,0 +1,36 @@
+.form{
+    width: 50%;
+    margin: 0 auto;
+   
+}
+.form >input{
+    padding: 12px 20px;
+    width: 70%;
+    border: solid 1px ;
+    border-radius: 5px;
+    margin-left: 17%;
+}
+.form >button{
+    border: none;
+    outline: none;
+    background-color: rgb(108, 187,108);
+    padding: 10px 12px;
+    border: solid 1px ;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 45%;
+    height: 10vh;
+    width: 10vw;
+
+}
+
+.login{
+    margin-left: 47%;
+}
+link{
+    text-decoration: none;
+
+}
+input{
+    height: 7vh;
+}

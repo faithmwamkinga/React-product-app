@@ -1,0 +1,9 @@
+.products{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 50%;
+    height: 20vh;
+    margin: 5%;
+}
