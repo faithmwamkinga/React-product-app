@@ -12,12 +12,12 @@
 }
 .form >button{
     border: none;
-    border-color: rgb(38, 168, 201);
+    border-color: #72A0C1;
     outline: none;
-    background-color: rgb(94, 192, 216);
+    background-color: #72A0C1;
     padding: 10px 12px;
     border: solid 1px ;
-    color: #fff;
+    color:#72A0C1;
     border-radius: 5px;
     margin-left: 45%;
     height: 10vh;
@@ -34,4 +34,7 @@ link{
 }
 input{
     height: 7vh;
+}
+body{
+    background-color: rgb(231, 231, 222);
 }

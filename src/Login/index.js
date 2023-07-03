@@ -2,17 +2,26 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './style.css';
 const Login = () => {
+  const[isSubmitted , setIssubmitted]=useState(false)
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const[message ,setmessage] = useState('');
+
   const navigate = useNavigate();
   const [loginSuccess, setLoginSuccess] = useState(false);
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIssubmitted(true)
+    setmessage("Successfully logged in")
     const data = {
       username: username,
       password: password,
     };
     console.log(data);
+
+    if(setmessage){
+
+    }
     try {
       const response = await fetch('https://dummyjson.com/auth/login', {
         method: 'POST',
@@ -36,12 +45,7 @@ const Login = () => {
       <h1 className='login'>Login</h1>
       {loginSuccess && <p>Login successful!</p>}
       <form className='form' onSubmit={handleSubmit}>
-          <input
-            type="text"
-            id="username"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            required placeholder='Enter username'
+          <input type="text" id="username" value={username} onChange={(e) => setUsername(e.target.value)} required placeholder='Enter username'
           />
            <br/>
            <br/>
@@ -56,8 +60,10 @@ const Login = () => {
           <br/>
         <button className="btn" type="submit">
           <Link to="/products">Login</Link>
+          set
         </button>
       </form>
+      {isSubmitted && <p>{message}</p>}
     </div>
   );
 };

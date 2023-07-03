@@ -16,7 +16,7 @@ const ProductInfoPage = () => {
     getProductInfo();
   }, [productId]);
   if (!product) {
-    return <p>Loading product details...</p>;
+    return <p>Loading more product details...</p>;
   }
   return (
     <div>
