@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import "./style.css";
 const ProductInfoPage = () => {
   const { productId } = useParams();
   const [product, setProduct] = useState(null);
@@ -19,7 +20,7 @@ const ProductInfoPage = () => {
     return <p>Loading more product details...</p>;
   }
   return (
-    <div>
+    <div className='info'>
       <h1>Product Details</h1>
       <div>
         <img src={product.thumbnail} alt={product.title} />
