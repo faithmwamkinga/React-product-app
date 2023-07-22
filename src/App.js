@@ -12,11 +12,11 @@ const App = () => {
         <nav className="nav">
           <ul>
           
-              <Link to="/products">Products</Link>
+              <Link className='link' to="/products">Products</Link>
            
-              <Link to="/add-product">Add Product</Link>
+              <Link className='link'  to="/add-product">Add Product</Link>
            
-              <Link to="/login">Login</Link>
+              <Link className='link'  to="/login">Login</Link>
            
           </ul>
         </nav>

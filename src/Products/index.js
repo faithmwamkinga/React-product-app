@@ -33,9 +33,6 @@ const Product = () => {
       {products.map((item) => (
         <div key={item.id} className="product">
           <img className="image" alt="" src={item.images[1]} />
-          <Link to="/add">
-            <button>Add</button>
-          </Link>
           <h3 className="h3">Brand:{item.title}</h3>
           <p className="p"> Price:{item.price} </p>
           <p className="p1"> Discount Percentage:{item.discountPercentage}%</p>
@@ -44,6 +41,9 @@ const Product = () => {
           </Link>
         </div>
       ))}
+       <Link to="/add">
+            <button className="addbutton">Add Product</button>
+          </Link>
     </div>
   );
 };

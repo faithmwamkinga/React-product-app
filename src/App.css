@@ -37,9 +37,20 @@
   }
 }
 nav{
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
+  width: 98vw;
+  height: 7vh;
+  background-color: #72A0C1;
+  margin-left: 1%;
+  
+  
+}
+.link{
+  text-decoration: none;
+  padding: 80px;
+  margin-top: 1%;
+  color: black;
+  text-align: center;
+  
   
 }
 

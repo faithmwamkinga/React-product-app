@@ -22,13 +22,16 @@ const ProductInfoPage = () => {
   return (
     <div className='info'>
       <h1>Product Details</h1>
-      <div>
+      
+      <div className='products'>
+     
         <img src={product.thumbnail} alt={product.title} />
-        <h2>{product.title}</h2>
-        <p>{product.brand}</p>
-        <p>{product.price}</p>
-        <h4>{product.rating}</h4>
-      </div>
+        </div>
+        <p className='brand'>Title: {product.title}</p>
+        <p className='brand'>Brand: {product.brand}</p>
+        <p className='title'>Price: {product.price}</p>
+        <p className='title'>Rating: {product.rating}</p>
+     
     </div>
   );
 };

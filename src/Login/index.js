@@ -59,7 +59,7 @@ const Login = () => {
           <br/>
           <br/>
         <button className="btn" type="submit">
-          <Link to="/products">Login</Link>
+          <Link className='loginlink' to="/products">Login</Link>
           set
         </button>
       </form>
@@ -68,3 +68,7 @@ const Login = () => {
   );
 };
 export default Login;
+
+<Link to="/add">
+<button className="addbutton">Add Product</button>
+</Link>

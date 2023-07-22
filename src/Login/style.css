@@ -8,10 +8,10 @@
     width: 70%;
     border: solid 1px ;
     border-radius: 5px;
-    margin-left: 27%;
+    margin-left: 17%;
 }
 .form >button{
-    border: solid 1px;
+    border: none;
     border-color: #72A0C1;
     outline: none;
     background-color: #72A0C1;
@@ -19,17 +19,20 @@
     border: solid 1px ;
     color:#72A0C1;
     border-radius: 5px;
-    margin-left: 45%;
+    margin-left: 17%;
     height: 10vh;
     width: 10vw;
+    
 
 }
 
 .login{
     margin-left: 47%;
 }
-link{
+.loginlink{
     text-decoration: none;
+    color: black;
+    font-size: 15px;
 
 }
 input{

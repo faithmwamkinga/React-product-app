@@ -1,3 +1,21 @@
 .info{
-    margin-left: 10%;
+    margin-left: 5%;
+    
 }
+/* .products{
+    border: solid 1px black;
+    width: 30vw;
+    height: 40vh;
+} */
+img{
+    width: 25vw;
+    margin: 2%;
+    margin-left: 8%;
+}
+.products p{
+    margin-top: 5%;
+    font-size: 15px;
+    margin-right: 90%;
+    
+}
+

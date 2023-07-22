@@ -5,27 +5,27 @@ body{
 .products{
     display: grid;
     grid-template-columns: repeat(3,3fr);
-    margin-left: 5%;
+    margin-left: 1%;
+    margin-top: 7%;
 
 }
 .image{
     width: 55%;
     height: 27vh;
-    margin: 5%;
-    margin-left: 7%;
-    border-radius: 30px;
+    margin-top: 1%;
+    margin-left: 2%;
 }
 h3{
-    margin-top: -4%;
+    margin-top: -2%;
     margin-left: 10%;
 
 }
 p{
-    margin-top: -3%;
+    /* margin-top: -3%; */
     margin-left: 10%;
 }
 .p1{
-    margin-top: 3%;
+    /* margin-top: 3%; */
     margin-left: 10%;
 }
 .btn{
@@ -35,9 +35,9 @@ p{
     color: rgb(1, 12, 12);
     background-color: #72A0C1;
     border: none;
-    margin-top: 2%;
+    margin-top: 0%;
     margin-left: 10%;
-    margin-bottom: 25%;
+    font-size: 15px;
 }
 button{
     width: 8vw;
@@ -50,3 +50,20 @@ button{
     margin-bottom: 9%;
     margin-top: -20%;
 }
+.product{
+    width: 30vw;
+    height: 50vh;
+    border: solid 1px black;
+    background-color: white;
+    margin: 4%;
+}
+.addbutton{
+    position: relative;
+    top: -5430px;
+    margin-left: 4%;
+    font-size: 15px;
+    width: 10vw;
+ 
+
+}
+
